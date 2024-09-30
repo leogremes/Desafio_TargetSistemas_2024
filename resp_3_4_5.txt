@@ -1,0 +1,28 @@
+QUESTÃO 3:
+    O valor da soma ao final do processamento será de 77
+
+QUESTÃO 4:
+    a) 9 (Sequência de números ímpares)
+    b) 128 (Sequência dobra a cada número)
+    c) 49 (Sequência dos quadrados dos números)
+    d) 100 (Sequência dos quadrados multiplicados por 4)
+    e) 13 (Sequência de Fibonacci)
+    f) 200 (Sequência de números iniciados por 'D')
+
+QUESTÃO 5:
+    Assumindo que as lâmpadas em questão esquentam, eu acenderia o ligaria o interruptor 2, após um período de tempo eu desligaria o interruptor 2 e ligaria o interruptor 1. Após isso iria até as duas primeiras salas, caso a lâmpada esteja ligada, ela será controlada pelo interruptor 1, caso a lâmpada esteja desligada porém esteja quente, ela será controlada pelo interruptor 2, caso ela esteja desligada e fria, ela será controlada pelo interruptor 3. A lâmpada da 3ª sala pode ser descoberta por eliminação.
+
+
+''' Código do Exercício 3 em Python
+
+INDICE = 12
+SOMA = 0
+K = 1
+
+while K < INDICE:
+    K = K + 1
+    SOMA = SOMA + K
+
+print(SOMA)
+'''
+
