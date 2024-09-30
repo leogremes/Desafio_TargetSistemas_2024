@@ -19,7 +19,6 @@ int main(void)
 
 		// andamento da sequência, o próximo número sendo a soma dos dois anteriores
 		while (next < num) {
-			printf("%d -> ", next);
 			prev = curr;
 			curr = next;
 			next = prev + curr;
